@@ -7,7 +7,7 @@
 }
 body
 {
-    background-image: url('Assets/Background.png');
+    background-image: url('https://github.com/codewithfaiz/Newsletter-Popup-Template/blob/main/Background.png?raw=true');
     background-repeat: no-repeat;
     background-position: cover;
     min-height: 100vh;
@@ -27,8 +27,7 @@ body
 { 
  
     height: 180px;
-    background: url('Assets/Pattern.png') ;
-    background-image: url('Assets/Pattern.png');
+    background-image: url('https://github.com/codewithfaiz/Newsletter-Popup-Template/blob/main/Pattern.png?raw=true');
     background-repeat: no-repeat;
     background-position: cover;
     background-color: rgb(58, 58, 216);
