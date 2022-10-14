@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('Assets/Background.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.container
+{   
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+.container .box 
+{ 
+ 
+    height: 180px;
+    background: url('Assets/Pattern.png') ;
+    background-image: url('Assets/Pattern.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: rgb(58, 58, 216);
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.box h1 {
+    position: relative;
+    top: 50px;
+    padding: 1px 50px;
+}
+.box2
+{
+    padding: 10px;
+}
+.box2 p 
+{
+   text-align: center;
+   padding: 10px;
+   font-size: small;
+   padding-bottom: 10px;
+   color:gray;
+}
+.box2 input
+{
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color:rgb(241, 241, 241) ;
+}
+button{
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    background-color:rgb(50, 50, 248);
+}
+button:hover
+{
+    background-color:rgba(50, 50, 248, 0.8);
+    
+}
+span
+{
+    padding: 10px;
+    padding-left: 25px;
+    font-size: small;
+    color: slategrey;
+} 
+
+.profile h2 
+{
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: smaller;
+}
+.profile h3 {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    font-size: smaller;
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+}
+
+p 
+{
+    text-align: center;
+    padding: 0px 25px 0px 32px;
+    font-size: small;
+    padding-bottom: 10px;
+    color:gray;
+}
+.profile img
+{
+    margin: 0;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    
+}
+
+
+ 
